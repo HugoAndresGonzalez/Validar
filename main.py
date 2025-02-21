@@ -7,6 +7,4 @@ def validar_nums(tipo_a_convertir,pregunta,rango=float('inf')):
         print("valor no valido(ingresaste un negativo),vuelve a intentarlo: ")
       else:return respuesta
     except ValueError:print("Igresaste letras, debes ingresar números, vuelve a intentarlo: ")
-
 answer=(validar_nums(float,"ingresa un digito: ",0))
-print(answer)
